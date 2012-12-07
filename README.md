@@ -16,24 +16,26 @@
 　　　本RTMでも、自作GUIを用いたモーションエディタを作成しました。  
 ####　使用方法####
 　　　　(1)OpenRTMの環境の整ったPCとロボットを以下のように接続します。  
-　　　　
-[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png)
+
+　　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png)
 [image1]:https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png
 
 　　　　(2)ロボットを接続したPortのCOMを確認し、使用するサーボマネージャー(ex.PrsServoManager)のiniファイルのCOMを編集します。  
 　　　　　また、iniファイルで使用するサーボモータの個数や可動域等を設定し、保存します。  
 
-[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png)
+　　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png)
 [image2]:https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png
-　　　　　　　例：servomanager.ini（PrsServoManager）  
+　　　　　　　　　例：servomanager.ini（PrsServoManager）  
 
 　　　　(3)MotionEditor.pyおよび使用するサーボモーターに対応したサーボマネージャー(ex.PrsServoManager.py)を起動します。
 　　　　(4)RTSystemEditorを起動し、MotionEditorとサーボマネージャを以下のように接続して、Activateします。
-[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png)
+　　　　
+　　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png)
 [image3]:https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png
+
 　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。
-[![画像4][image4]]()
-[image4]:
+　　　　　[![画像4][image4]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png)
+[image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png
 　  
 　  
 #####　MotionEditorの使い方######
