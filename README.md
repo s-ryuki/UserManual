@@ -44,12 +44,16 @@
 　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png)
 [image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png
 
-　　　　　①ServoOn/OFFボタンですべてのサーボを保持させます。  
-　　　　　②
-
-
-　　　　　各ボタンの説明は[こちら]()をご覧ください。
-　  
+　　　　　(1)ServoOn/OFFボタンですべてのサーボを保持させます。  
+　　　　　(2)作成するPoseの各パラメータを設定します。  
+　　　　　　　　　Time：前のPoseから現在のPoseまで移動する時間[ms]  
+　　　　　　　　　Wait：現在のPoseと次のPoseの間の待機時間[ms]  
+　　　　　　　　　Pose：作成するコマの番号
+　　　　　(3)各サーボモータのバーを左右に動かし、関節角度を決定します。  
+　　　　　(4)すべての関節角度が決定したらPose出力ボタンをクリックし、右側にXML形式のモーションが作成されるのを確認します。  
+　　　　　(5)Pose番号を変えて、同様にPoseを作成します。  
+　　　　　(6)モーションが完成したらFile名を記入し、最後にFile出力ボタンをクリックします。  
+　　　　　(7)MotionEditorのフォルダに作成したモーションファイルが生成されます。  
 　  
 　  
 ###・モーション再生モード###
