@@ -40,7 +40,7 @@
 [image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png
 　  
 　  
-#####　MotionEditorの使い方######
+####　　MotionEditorの使い方####
 　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png)
 [image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png
 
