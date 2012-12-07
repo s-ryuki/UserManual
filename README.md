@@ -10,11 +10,11 @@
 　　私たちのRTMでは、ロボットの開発に必要な「モーション編集モード」と「モーション再生モード」の2つを使い分けることができます。  
 
 ###・モーション編集モード###
-　　　ロボットを動作させる際にはロボットの動きを事前に作成しておく必要があります。
-　　ヒューマノイドロボットの場合は各関節の角度決定を行わなければなりません。
-　　そのため各ロボットメーカーはモーションエディタ等を用意し、ユーザーのモーション作成のサポートをしています。
+　　　ロボットを動作させる際にはロボットの動きを事前に作成しておく必要があります。  
+　　ヒューマノイドロボットの場合は各関節の角度決定を行わなければなりません。  
+　　そのため各ロボットメーカーはモーションエディタ等を用意し、ユーザーのモーション作成のサポートをしています。  
 　　　本RTMでも、自作GUIを用いたモーションエディタを作成しました。  
-####　使用方法####
+####　　使用方法####
 　　　　(1)OpenRTMの環境の整ったPCとロボットを以下のように接続します。  
 
 　　　　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png)
@@ -41,8 +41,8 @@
 　  
 　  
 #####　MotionEditorの使い方######
-　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guid.png)
-[image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guid.png
+　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png)
+[image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png
 
 　　　　　①ServoOn/OFFボタンですべてのサーボを保持させます。  
 　　　　　②
