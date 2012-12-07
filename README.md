@@ -15,17 +15,18 @@
 　　そのため各ロボットメーカーはモーションエディタ等を用意し、ユーザーのモーション作成のサポートをしています。
 　　　本RTMでも、自作GUIを用いたモーションエディタを作成しました。  
 ####　使用方法####
-　　　　①OpenRTMの環境の整ったPCとロボットを以下のように接続します。  
-[![画像1][image1]]()
-[image1]
-　　　　②ロボットを接続したPortのCOMを確認し、MotionEditor.iniのCOMを編集し、保存します。  
+　　　　(1)OpenRTMの環境の整ったPCとロボットを以下のように接続します。  
+[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png)
+[image1]https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png
+　　　　(2)ロボットを接続したPortのCOMを確認し、使用するサーボマネージャーのiniファイルのCOMを編集します。  
+　　　　　また、iniファイルで使用するサーボモータの個数や可動域等を設定し、保存します。
 [![画像2][image2]]()
 [image2]
-　　　　③MotionEditor.pyおよび使用するサーボモーターに対応したサーボマネージャー(ex.PrsServoManager)を起動します。
-　　　　④RTSystemEditorを起動し、MotionEditorとサーボマネージャを以下のように接続して、Activateします。
+　　　　(3)MotionEditor.pyおよび使用するサーボモーターに対応したサーボマネージャー(ex.PrsServoManager)を起動します。
+　　　　(4)RTSystemEditorを起動し、MotionEditorとサーボマネージャを以下のように接続して、Activateします。
 [![画像3][image3]]()
 [image3]
-　　　　⑤MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。
+　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。
 [![画像4][image4]]()
 [image4]
 　  
