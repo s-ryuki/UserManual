@@ -25,7 +25,7 @@
 
 　　　　　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png)
 [image2]:https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png
-　　　　　　　　　　　　　　例：servomanager.ini（PrsServoManager）  
+　　　　　　　　　　　　　　　　例：servomanager.ini（PrsServoManager）  
 　  
 　　　　(3)MotionEditor.pyおよび使用するサーボモーターに対応したサーボマネージャー(ex.PrsServoManager.py)を起動します。  
 　  
@@ -41,12 +41,17 @@
 　  
 　  
 #####　MotionEditorの使い方######
+　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guid.png)
+[image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guid.png
+
+　　　　　①ServoOn/OFFボタンですべてのサーボを保持させます。  
+　　　　　②
 
 
-　　　　①ServoOn/OFFボタンですべてのサーボを保持させます。
-　　　　②
-
-
+　　　　　各ボタンの説明は[こちら]()をご覧ください。
+　  
+　  
+　  
 ###・モーション再生モード###
 　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。  
 [![画像5][image5]]()
