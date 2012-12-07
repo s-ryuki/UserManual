@@ -35,9 +35,11 @@
 [image3]:https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png
 
 　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。  
-　　　　
-　　　　　　　[![画像4][image4]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png)
-[image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png
+
+　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png)
+[image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI.png
+　  
+　  
 #####　MotionEditorの使い方######
 　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png)
 [image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png
