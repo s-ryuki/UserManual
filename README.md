@@ -68,8 +68,8 @@
 
 ####　　HumanInterfaceの使い方####
 
-　　　　　　[![画像8][image8]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guid.png)
-[image8]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guid.png
+　　　　　　[![画像8][image8]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guid2.png)
+[image8]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guid2.png
 
 　HumanInterfaceはAndroid端末にインストールすれば、端末からロボットの操縦が可能です。  
 　  
