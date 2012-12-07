@@ -68,15 +68,15 @@
 
 ####　　HumanInterfaceの使い方####
 
-　　　　　　[![画像8][image8]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guid2.png)
-[image8]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guid2.png
+　　　　　　[![画像8][image8]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guide2.png)
+[image8]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guide2.png
 
 　HumanInterfaceはAndroid端末にインストールすれば、端末からロボットの操縦が可能です。  
 　  
 ####　　SimpleControllerの使い方####
 
-　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guid.png)
-[image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guid.png
+　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png)
+[image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png
 
 　　　SimpleControllerは、作成したモーションを確かめる際に有用です。    
 　　別の端末と通信を行う必要がなく、簡単にモーションの確認が行えます。  
