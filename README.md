@@ -42,7 +42,7 @@
 　  
 ####　　MotionEditorの使い方####
 　　　　　　　　　　[![画像5][image5]](http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png)
-[image4]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png
+[image5]:http://cloud.github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI-Guid.png
 
 　　　　　(1)ServoOn/OFFボタンですべてのサーボを保持させます。  
 　　　　　(2)作成するPoseの各パラメータを設定します。  
@@ -58,14 +58,25 @@
 　  
 ###・モーション再生モード###
 　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。  
-[![画像5][image5]]()
-[image5]:
+　　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
+[image6]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png
 
-[![画像6][image6]]()
-[image6]:
+　　　　　[![画像7][image7]](https://github.com/downloads/s-ryuki/Pictures/SimpleController-PrsServoManager.png)
+[image7]:https://github.com/downloads/s-ryuki/Pictures/SimpleController-PrsServoManager.png
 
 　　　ロボットを操縦するコントローラとしてHumanInterfaceとSimpleControllerの２種類作成しました。  
-　　HumanInterfaceはAndroid端末にインストールすれば、端末からロボットの操縦が可能です。  
-　　また、作成したモーションを確かめる際にはSimpleControllerをご使用できます。  
-　　Android端末との通信を行う必要がなく、簡単にモーションの確認が行えます。  
-　
+
+####　　HumanInterfaceの使い方####
+
+　　　　　　[![画像8][image8]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI-Guid.png)
+[image8]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI-Guid.png
+
+　HumanInterfaceはAndroid端末にインストールすれば、端末からロボットの操縦が可能です。  
+　  
+####　　SimpleControllerの使い方####
+
+　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guid.png)
+[image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guid.png
+
+　　　SimpleControllerは、作成したモーションを確かめる際に有用です。    
+　　別の端末と通信を行う必要がなく、簡単にモーションの確認が行えます。  
