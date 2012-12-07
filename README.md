@@ -25,9 +25,10 @@
 
 　　　　　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png)
 [image2]:https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png
-　　　　　　　　　例：servomanager.ini（PrsServoManager）  
-
+　　　　　　　　　　　　　　例：servomanager.ini（PrsServoManager）  
+　  
 　　　　(3)MotionEditor.pyおよび使用するサーボモーターに対応したサーボマネージャー(ex.PrsServoManager.py)を起動します。  
+　  
 　　　　(4)RTSystemEditorを起動し、MotionEditorとサーボマネージャを以下のように接続して、Activateします。  
 
 　　　　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png)
