@@ -36,11 +36,24 @@
 
 　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。  
 
-　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide2.png)
-[image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide2.png
+　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png)
+[image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png
 　  
 　  
 ####　　MotionEditorの使い方####
+　  
+　　　　　　　　　　File：　出力するファイルの名前を入力  
+　　　　　　　　　　Time：　サーボを目的角度まで動かすのにかける時間[ms]  
+　　　　　　　　　　Wait：　目的角度に動いたあとの待機時間[ms]  
+　　　　　　　　　　Pose：　作成するコマの番号  
+   　　　　　　　画面の説明  
+　　　　　　　　　　　①：モーションファイル出力ボタン  
+　　　　　　　　　　　②：全サーボモータON/OFFボタン  
+　　　　　　　　　　  ③：Pose出力ボタン  
+　　　　　　　　　　　④：各サーボモータON/OFFボタン  
+　　　　　　　　　　  ⑤：サーボモータ角度調整ゲージ  
+　　　　　　　　　　　⑥：Pose出力画面  
+　  
 　　　　　　(1)ServoOn/OFFボタンですべてのサーボを保持させます。  
 　　　　　　(2)作成するPoseの各パラメータを設定します。  
 　　　　　　　　　Time：前のPoseから現在のPoseまで移動する時間[ms]  
