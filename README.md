@@ -62,17 +62,16 @@
 　  
 　  
 ###・モーション再生モード###
-　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。 
+　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。   
 　　　
-　　　　　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
+　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
 [image6]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png
+　　　　　　　　　　　　　　　例：HumanInterfaceコンポーネントを用いる場合
 　  
-　　　　　　　　　　　　例：HumanInterfaceコンポーネントを用いる場合
-
-　　　　　[![画像7][image7]](https://github.com/downloads/s-ryuki/Pictures/SimpleController-PrsServoManager.png)
+　  
+　　[![画像7][image7]](https://github.com/downloads/s-ryuki/Pictures/SimpleController-PrsServoManager.png)
 [image7]:https://github.com/downloads/s-ryuki/Pictures/SimpleController-PrsServoManager.png
-　  
-　　　　　　　　　　　　例：SimpleControllerを用いる場合
+　　　　　　　　　　　　　　　　　　　例：SimpleControllerを用いる場合
 　  
 　  
 　　　ロボットを操縦するコントローラとしてHumanInterfaceとSimpleControllerの２種類作成しました。  
