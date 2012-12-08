@@ -37,8 +37,7 @@
 　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。  
 ####　　　　　　MotionEditorの使い方####
 　　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png)
-[image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png
-
+[image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png  
 
 #####          　画面説明#####
 　　　　　　　　　　File：　出力するファイルの名前を入力  
