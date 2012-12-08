@@ -91,7 +91,7 @@
 
 　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png)
 [image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png
-　　　　　　(1)SimpleInterface.pyを起動します。  
+　　　　　　(1)SimpleController.pyを起動します。  
 　　　　　　(2)RTSystemEditor上で上記のように繋ぎます。  
 　　　　　　(3)「サーボモータON」ボタンですべてのサーボを保持させます。  
 　　　　　　(4)各ボタンを押すことで、ボタンに割り振られたコマンドが送られ、MotionLoderで設定されたモーションが再生されます。  
