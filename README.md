@@ -38,15 +38,13 @@
 
 　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png)
 [image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png
-　  
-　  
+
 ####　　MotionEditorの使い方####
-　  
 　　　　　　　　　　File：　出力するファイルの名前を入力  
 　　　　　　　　　　Time：　サーボを目的角度まで動かすのにかける時間[ms]  
 　　　　　　　　　　Wait：　目的角度に動いたあとの待機時間[ms]  
 　　　　　　　　　　Pose：　作成するコマの番号  
-   　　　　　　　画面の説明  
+   　　　　　　　　　　　画面の説明  
 　　　　　　　　　　　①：モーションファイル出力ボタン  
 　　　　　　　　　　　②：全サーボモータON/OFFボタン  
 　　　　　　　　　　　③：Pose出力ボタン  
@@ -56,9 +54,6 @@
 　  
 　　　　　　(1)ServoOn/OFFボタンですべてのサーボを保持させます。  
 　　　　　　(2)作成するPoseの各パラメータを設定します。  
-　　　　　　　　　Time：前のPoseから現在のPoseまで移動する時間[ms]  
-　　　　　　　　　Wait：現在のPoseと次のPoseの間の待機時間[ms]  
-　　　　　　　　　Pose：作成するコマの番号  
 　　　　　　(3)各サーボモータのバーを左右に動かし、関節角度を決定します。  
 　　　　　　(4)すべての関節角度が決定したらPose出力ボタンをクリックし、右側にXML形式のモーションが作成されるのを確認します。  
 　　　　　　(5)Pose番号を変えて、同様にPoseを作成します。  
@@ -67,7 +62,8 @@
 　  
 　  
 ###・モーション再生モード###
-　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。  
+　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。 
+　　　
 　　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
 [image6]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png
 
