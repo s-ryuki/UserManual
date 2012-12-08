@@ -35,12 +35,12 @@
 [image3]:https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png
 
 　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。  
-####　　　MotionEditorの使い方####
-　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png)
+####　　　　　　MotionEditorの使い方####
+　　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png)
 [image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png
 
 
-#####          画面説明#####
+#####          　画面説明#####
 　　　　　　　　　　File：　出力するファイルの名前を入力  
 　　　　　　　　　　Time：　サーボを目的角度まで動かすのにかける時間[ms]  
 　　　　　　　　　　Wait：　目的角度に動いたあとの待機時間[ms]  
@@ -52,13 +52,13 @@
 　　　　　　　　　　　⑤：サーボモータ角度調整ゲージ  
 　　　　　　　　　　　⑥：ポーズ出力画面  
 　  
-　　　　　　(1)サーボモータOn/OFFボタンですべてのサーボを保持させます。  
-　　　　　　(2)作成するPoseの各パラメータを設定します。  
-　　　　　　(3)各サーボモータのバーを左右に動かし、関節角度を決定します。  
-　　　　　　(4)すべての関節角度が決定したらPose出力ボタンをクリックし、右側にXML形式のモーションが作成されるのを確認します。  
-　　　　　　(5)Pose番号を変えて、同様にPoseを作成します。  
-　　　　　　(6)モーションが完成したらFile名を記入し、最後にFile出力ボタンをクリックします。  
-　　　　　　(7)MotionEditorのフォルダに作成したモーションファイルが生成されます。  
+　　　　　　　(1)サーボモータOn/OFFボタンですべてのサーボを保持させます。  
+　　　　　　　(2)作成するPoseの各パラメータを設定します。  
+　　　　　　　(3)各サーボモータのバーを左右に動かし、関節角度を決定します。  
+　　　　　　　(4)すべての関節角度が決定したらPose出力ボタンをクリックし、右側にXML形式のモーションが作成されるのを確認します。  
+　　　　　　　(5)Pose番号を変えて、同様にPoseを作成します。  
+　　　　　　　(6)モーションが完成したらFile名を記入し、最後にFile出力ボタンをクリックします。  
+　　　　　　　(7)MotionEditorのフォルダに作成したモーションファイルが生成されます。  
 　  
 　  
 ###・モーション再生モード###
