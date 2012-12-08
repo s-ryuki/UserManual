@@ -47,12 +47,12 @@
    　　　　　　　　　　　画面の説明  
 　　　　　　　　　　　①：モーションファイル出力ボタン  
 　　　　　　　　　　　②：全サーボモータON/OFFボタン  
-　　　　　　　　　　　③：Pose出力ボタン  
+　　　　　　　　　　　③：ポーズ出力ボタン  
 　　　　　　　　　　　④：各サーボモータON/OFFボタン  
 　　　　　　　　　　　⑤：サーボモータ角度調整ゲージ  
-　　　　　　　　　　　⑥：Pose出力画面  
+　　　　　　　　　　　⑥：ポーズ出力画面  
 　  
-　　　　　　(1)ServoOn/OFFボタンですべてのサーボを保持させます。  
+　　　　　　(1)サーボモータOn/OFFボタンですべてのサーボを保持させます。  
 　　　　　　(2)作成するPoseの各パラメータを設定します。  
 　　　　　　(3)各サーボモータのバーを左右に動かし、関節角度を決定します。  
 　　　　　　(4)すべての関節角度が決定したらPose出力ボタンをクリックし、右側にXML形式のモーションが作成されるのを確認します。  
@@ -74,19 +74,29 @@
 　　　　　　　　　　　　　　　　　　　例：SimpleControllerを用いる場合
 　  
 　  
-　　　ロボットを操縦するコントローラとしてHumanInterfaceとSimpleControllerの２種類作成しました。  
+　　　ロボットを操縦するためのコンポーネントとしてHumanInterfaceとSimpleControllerの2種類作成しました。  
 
 ####　　HumanInterfaceの使い方####
-
+　　　　本コンポーネントはAndroid端末にインストールすることで使用可能になります。  
 　　　　　　[![画像8][image8]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guide2.png)
 [image8]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface_GUI_Guide2.png
-
-　HumanInterfaceはAndroid端末にインストールすれば、端末からロボットの操縦が可能です。  
-　  
+　　　　　　(1)使用するAndroid端末にアプリをインストールします。  
+　　　　　　(2)アプリを立ち上げます。  
+　　　　　　(3)IPアドレス欄に接続する先のIPアドレスを入力します。  
+　　　　　　(4)「START」を押すと通信を開始し、PCのRTSytemEditor上にコンポーネントが表示されます。  
+　　　　　　(5)上記のように繋ぎ、Activateします。  
+　　　　　　(6)正常に接続されるとAndroid端末上に「onActivate」と表示され、使用可能となります。
+　　　　　　(7)各ボタンを押すことで、ボタンに割り振られたコマンドが送られ、MotionLoderで設定されたモーションが再生されます。  
+　　　　　　(8)使用を終了するときは「STOP」ボタンを押せば接続が切れ、「Deactivete」と表示されます。  
+   
 ####　　SimpleControllerの使い方####
 
 　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png)
 [image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png
-
-　　　SimpleControllerは、作成したモーションを確かめる際に有用です。    
-　　別の端末と通信を行う必要がなく、簡単にモーションの確認が行えます。  
+　　　　　　(1)SimpleInterface.pyを起動します。  
+　　　　　　(2)RTSystemEditor上で上記のように繋ぎます。
+　　　　　　(3)「サーボモータON」ボタンですべてのサーボを保持させます。  
+　　　　　　(4)各ボタンを押すことで、ボタンに割り振られたコマンドが送られ、MotionLoderで設定されたモーションが再生されます。  
+　  
+　　　　　SimpleControllerは、作成したモーションを確かめる際に有用です。  
+　　　　　別の端末と通信を行う必要がなく、簡単にモーションの確認が行えます。  
