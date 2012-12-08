@@ -89,8 +89,8 @@
    
 ####　　SimpleControllerの使い方####
 
-　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png)
-[image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png
+　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI_Guide.png)
+[image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI_Guide.png
 　　　　　　(1)SimpleController.pyを起動します。  
 　　　　　　(2)RTSystemEditor上で上記のように繋ぎます。  
 　　　　　　(3)「サーボモータON」ボタンですべてのサーボを保持させます。  
