@@ -35,16 +35,16 @@
 [image3]:https://github.com/downloads/s-ryuki/Pictures/MotionEditor-PrsServoManager.png
 
 　　　　(5)MotionEditor上でモーションを作成し、最後にファイル出力をすれば完成です。  
-
+####　　　MotionEditorの使い方####
 　　　　　　　[![画像4][image4]](http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png)
 [image4]:http://github.com/downloads/s-ryuki/Pictures/MotionEditor_GUI_Guide3.png
 
-####　　MotionEditorの使い方####
+
+#####          画面説明#####
 　　　　　　　　　　File：　出力するファイルの名前を入力  
 　　　　　　　　　　Time：　サーボを目的角度まで動かすのにかける時間[ms]  
 　　　　　　　　　　Wait：　目的角度に動いたあとの待機時間[ms]  
 　　　　　　　　　　Pose：　作成するコマの番号  
-   　　　　　　　　　　　画面の説明  
 　　　　　　　　　　　①：モーションファイル出力ボタン  
 　　　　　　　　　　　②：全サーボモータON/OFFボタン  
 　　　　　　　　　　　③：ポーズ出力ボタン  
@@ -85,7 +85,7 @@
 　　　　　　(3)IPアドレス欄に接続する先のIPアドレスを入力します。  
 　　　　　　(4)「START」を押すと通信を開始し、PCのRTSytemEditor上にコンポーネントが表示されます。  
 　　　　　　(5)上記のように繋ぎ、Activateします。  
-　　　　　　(6)正常に接続されるとAndroid端末上に「onActivate」と表示され、使用可能となります。
+　　　　　　(6)正常に接続されるとAndroid端末上に「onActivate」と表示され、使用可能となります。  
 　　　　　　(7)各ボタンを押すことで、ボタンに割り振られたコマンドが送られ、MotionLoderで設定されたモーションが再生されます。  
 　　　　　　(8)使用を終了するときは「STOP」ボタンを押せば接続が切れ、「Deactivete」と表示されます。  
    
@@ -94,7 +94,7 @@
 　　　　　　[![画像9][image9]](https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png)
 [image9]:https://github.com/downloads/s-ryuki/Pictures/SimpleController_GUI-Guide.png
 　　　　　　(1)SimpleInterface.pyを起動します。  
-　　　　　　(2)RTSystemEditor上で上記のように繋ぎます。
+　　　　　　(2)RTSystemEditor上で上記のように繋ぎます。  
 　　　　　　(3)「サーボモータON」ボタンですべてのサーボを保持させます。  
 　　　　　　(4)各ボタンを押すことで、ボタンに割り振られたコマンドが送られ、MotionLoderで設定されたモーションが再生されます。  
 　  
