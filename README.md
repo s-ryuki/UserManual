@@ -62,7 +62,7 @@
 　  
 ###・モーション再生モード###
 　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。   
-　　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
+　　　　　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
 [image6]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png
 　　　　　　　　　　　　　　　例：HumanInterfaceコンポーネントを用いる場合
 　  
