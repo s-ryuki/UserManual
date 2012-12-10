@@ -17,8 +17,8 @@
 ####　　使用方法####
 　　　　(1)OpenRTMの環境の整ったPCとロボットを以下のように接続します。  
 
-　　　　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png)
-[image1]:https://github.com/downloads/s-ryuki/Pictures/PC-Robot.png
+　　　　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-PrsRobot.png)
+[image1]:https://github.com/downloads/s-ryuki/Pictures/PC-PrsRobot.png
 
 　　　　(2)ロボットを接続したPortのCOMを確認し、使用するサーボマネージャー(ex.PrsServoManager)のiniファイルのCOMを編集します。  
 　　　　　また、iniファイルで使用するサーボモータの個数や可動域等を設定し、保存します。  
