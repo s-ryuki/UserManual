@@ -1,15 +1,16 @@
 ユーザーマニュアル
 ==================
-　ここでは私たちが作成したRTC群の使用方法を説明します。
+　ヒューマノイドロボットを制御するためのRTC群の使用方法を説明します。
 　  
-モード切り替え
---------------
+はじめに
+--------
 　　ロボットの開発には大きく分けて、まずロボットの動作と作成し、それをコントロールするという２つの操作が必要になります。  
 　特にヒューマノイドロボットの場合、最初に歩行や旋回などといったモーションを作ってから、  
 　実際にコントローラ等を用いる、または自律でそのモーションを再生するという方法をとります。  
 　　私たちのRTMでは、ロボットの開発に必要な「モーション編集モード」と「モーション再生モード」の2つを使い分けることができます。  
-
-###・モーション編集モード###
+　ここでは
+　
+###1.モーション編集###
 　　　ロボットを動作させる際にはロボットの動きを事前に作成しておく必要があります。  
 　　ヒューマノイドロボットの場合は各関節の角度決定を行わなければなりません。  
 　　そのため各ロボットメーカーはモーションエディタ等を用意し、ユーザーのモーション作成のサポートをしています。  
@@ -20,7 +21,7 @@
 　　　　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/PC-PrsRobot.png)
 [image1]:https://github.com/downloads/s-ryuki/Pictures/PC-PrsRobot.png
 
-　　　　(2)ロボットを接続したPortのCOMを確認し、使用するサーボマネージャー(ex.PrsServoManager)のiniファイルのCOMを編集します。  
+　　　　(2)ロボットを接続したPort番号を確認し、使用するサーボマネージャー(ex.PrsServoManager)のiniファイルのCOMを編集します。  
 　　　　　また、iniファイルで使用するサーボモータの個数や可動域等を設定し、保存します。  
 
 　　　　　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/PrsServoManager_ini.png)
@@ -60,7 +61,7 @@
 　　　　　　　(7)MotionEditorのフォルダに作成したモーションファイルが生成されます。  
 　  
 　  
-###・モーション再生モード###
+###2.モーション再生###
 　　　作成したモーションを再生します。以下のようにコンポーネントを接続してください。   
 　　　　　　　　　　[![画像6][image6]](https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png)
 [image6]:https://github.com/downloads/s-ryuki/Pictures/HumanInterface-PrsServoManager.png
