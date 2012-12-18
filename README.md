@@ -1,7 +1,7 @@
 ユーザーマニュアル
 ==================
 　ヒューマノイドロボットを制御するためのRTC群の使用方法を説明します。  
-　(ビデオ)[http://www.youtube.com/watch?v=yXy9orsTUWM]もありますので、このページと合わせてみてください。
+　[ビデオ](http://www.youtube.com/watch?v=yXy9orsTUWM)もありますので、このページと合わせてみてください。
 　
 　  
 はじめに
